@@ -1,0 +1,5 @@
+<launch> 
+    <node pkg="robot_driver" type="pioneer_laser_node" name="pioneer_laser_node" output="screen"> 
+        <remap from="RosAria/cmd_vel" to="cmd_vel"/>
+    </node> 
+</launch>

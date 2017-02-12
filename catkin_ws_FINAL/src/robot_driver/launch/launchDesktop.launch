@@ -1,0 +1,6 @@
+<launch> 
+    <node pkg="robot_driver" type="pioneer_laser_node" name="pioneer_laser_node" output="screen"> 
+    </node> 
+    <node pkg="rviz" type="rviz" name="rviz"> 
+    </node>  
+</launch>
